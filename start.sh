@@ -92,6 +92,19 @@ if [[ ! -z "${VIDEO_DIR9}" ]]; then
   echo "media_dir=V,${VIDEO_DIR9}" >> "$TEMP_CONF"
 fi
 
+if [[ ! -z "${VIDEO_DIR10}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR10}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR11}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR11}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR12}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR12}" >> "$TEMP_CONF"
+fi
+
+
 # Audio
 if [[ ! -z "${AUDIO_DIR1}" ]]; then
   echo "media_dir=A,${AUDIO_DIR1}" >> "$TEMP_CONF"

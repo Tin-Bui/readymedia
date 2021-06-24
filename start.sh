@@ -109,7 +109,7 @@ if [[ ! -z "${VIDEO_DIR13}" ]]; then
 fi
 
 if [[ ! -z "${VIDEO_DIR14}" ]]; then
-  echo "media_dir=V,${VIDEO_DIR14" >> "$TEMP_CONF"
+  echo "media_dir=V,${VIDEO_DIR14}" >> "$TEMP_CONF"
 fi
 
 if [[ ! -z "${VIDEO_DIR15}" ]]; then

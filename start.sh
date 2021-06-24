@@ -104,6 +104,37 @@ if [[ ! -z "${VIDEO_DIR12}" ]]; then
   echo "media_dir=V,${VIDEO_DIR12}" >> "$TEMP_CONF"
 fi
 
+if [[ ! -z "${VIDEO_DIR13}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR13}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR14}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR14" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR15}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR15}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR16}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR16}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR17}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR17}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR18}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR18}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR19}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR19}" >> "$TEMP_CONF"
+fi
+
+if [[ ! -z "${VIDEO_DIR20}" ]]; then
+  echo "media_dir=V,${VIDEO_DIR20}" >> "$TEMP_CONF"
+fi
 
 # Audio
 if [[ ! -z "${AUDIO_DIR1}" ]]; then
